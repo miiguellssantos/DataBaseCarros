@@ -1,0 +1,55 @@
+body{
+    background-color: #f5f5f5;
+}
+
+#form01{
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#form02{
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#cadastro01{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#cadastro02{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue; 
+}
+
+#cadastro01:hover{
+    background-color:aqua;
+}
+
+#cadastro02:hover{
+    background-color:aqua;
+}
+
+#tabPessoa{
+    display: inline-block;
+    margin: 20px;
+    padding:20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#tabCarro{
+    display: inline-block;
+    margin: 20px;
+    padding:20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
