@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(font/static/Montserrat-Regular.ttf);
+}
+
+body{
+    background-color: #2C3333;
+    font-family: Montserrat;
+    color: #E7F6F2;
+}
+
+header{
+    text-align: center;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#form{
+    text-shadow: 2px 2px 4px #000000;
+    margin: 20px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+    background-color:#395B64;
+    box-shadow:3px 3px 5px  #E7F6F2, 
+               -3px -3px 5px  #E7F6F2, 
+               3px -3px 5px  #E7F6F2, 
+               -3px 3px 5px  #E7F6F2;
+}
+
+
+#cadastro{
+    font-family: Montserrat;
+    border: 1px solid #E7F6F2;
+    color:#E7F6F2;
+    border-radius: 10px;
+    background-color: #395B64;
+}
+
+#cadastro:hover{
+    background-color:#2C3333;
+}
+
+#tab{
+    font-family: Montserrat;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tab thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #395B64;
+    color: #E7F6F2;
+}
+
+#tab td, #tab thead{
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+#tab tr:nth-child(even){background-color: #546d74}
+#tab tr:hover {background-color: #576666;}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
